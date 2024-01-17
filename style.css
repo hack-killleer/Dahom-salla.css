@@ -1,6 +1,24 @@
-.bg-gray-50 {
+body.index {
     
-    background-color: white;
+    background: #008584 !important;
+}
+div#mainnav {
+    background: #018683;
+}
+.main-menu li.root-level>a,.s-cart-summary-total,.sicon-shopping-bag:before,.sicon-user-circle:before ,.s-product-card-content-title a,.s-product-card-sale-price h4{
+    color: white;
+}
+.s-button-primary-outline {
+    background: #f8b317;
+    color: white;
+    border-radius: 22px;
+}
+.s-product-card-content-title a,.s-product-card-content-sub {
+    text-align: center;
+    justify-content: center;
+}
+.s-product-card-vertical {
+    background: #019796;
 }
 [dir=rtl] salla-slider.photos-slider .swiper {
     padding-right: 0rem !important;
