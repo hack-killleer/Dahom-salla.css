@@ -2,6 +2,13 @@
     background: #019796;
     color: white;
 }
+.store-footer h3 {
+    background: #f8b317;
+    width: 222px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 3px;
+}
 .footer-is-light .store-footer {
     border-top-left-radius: 50px;
     overflow: hidden;
