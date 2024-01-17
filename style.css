@@ -5,23 +5,13 @@
 .sicon-menu:before,.top-navbar {
      color: white !important;
 }
-.store-footer h3 {
-    animation: blink-text 1.9s linear infinite;
- }
-@keyframes blink-text {
- 0% {
-  opacity: 0;
- }
- 50% {
-  opacity: 1;
- }
- 100% {
-  opacity: 0;
- }
+ 
+
 .store-footer h3 {
     background: #f8b317;
      text-align: center;
     border-radius: 12px;
+     animation: blink-text 1.9s linear infinite;
     padding: 3px;
 }
 .footer-is-light .store-footer {
@@ -121,4 +111,14 @@ section:first-of-type.s-block.s-block--photos-slider {
     height: 177px !important;
     background: #f9fafb00;
     }
+ }
+@keyframes blink-text {
+ 0% {
+  opacity: 0;
+ }
+ 50% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: 0;
  }
