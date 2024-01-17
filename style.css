@@ -8,6 +8,9 @@ div#mainnav {
 .main-menu li.root-level>a,.s-cart-summary-total,.sicon-shopping-bag:before,.sicon-user-circle:before ,.s-product-card-content-title a,.s-product-card-sale-price h4,.s-slider-block__title h2,.s-product-card-content-subtitle{
     color: white !important;
 }
+.s-product-card-sale-price h4 {
+    color: white !important;
+}
 .s-button-primary-outline {
     background: #f8b317;
     color: white;
