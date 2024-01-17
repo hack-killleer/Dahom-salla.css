@@ -2,10 +2,12 @@
     background: #019796;
     color: white;
 }
+.sicon-menu:before,.top-navbar {
+     color: white !important;
+}
 .store-footer h3 {
     background: #f8b317;
-    width: 222px;
-    text-align: center;
+     text-align: center;
     border-radius: 12px;
     padding: 3px;
 }
@@ -86,6 +88,9 @@ section:first-of-type.s-block.s-block--photos-slider {
     
 /* Media Query for Mobile Devices */ 
  @media (max-width: 480px) { 
+     .store-footer h3 {
+     width: 222px;
+  }
            .banner-entry {
     width: 48%;
      height: 130px !important;
@@ -95,7 +100,10 @@ section:first-of-type.s-block.s-block--photos-slider {
 /* Media Query for low resolution  Tablets, Ipads */ 
        
 @media (min-width: 481px) and (max-width: 767px) { 
- .banner-entry {
+  .store-footer h3 {
+     width: 222px;
+  }
+    .banner-entry {
     width: 47%;
     height: 177px !important;
     background: #f9fafb00;
