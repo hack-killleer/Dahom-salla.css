@@ -1,3 +1,12 @@
+.footer-is-light .store-footer .store-footer__inner {
+    background: #019796;
+    color: white;
+}
+.footer-is-light .store-footer {
+    border-top-left-radius: 50px;
+    overflow: hidden;
+    border-top-right-radius: 50px;
+}
 body.index {
     
     background: #008584 !important;
